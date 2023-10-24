@@ -1,0 +1,42 @@
+[project]
+name = 'asigna-clarity-contracts'
+description = ''
+authors = []
+telemetry = false
+cache_dir = '.\.cache'
+requirements = []
+
+[contracts.traits]
+path = 'contracts/traits.clar'
+clarity_version = 1
+epoch = 2.1
+
+[contracts.nft-test]
+path = 'contracts/helper/nft-test.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.batch-nft-transfer]
+path = 'contracts/helper/batch-nft-transfer.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.fee-manager]
+path = 'contracts/fee-manager.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.streaming-wallet]
+path = 'contracts/streaming-wallet.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.ft-none]
+path = 'contracts/helper/ft-none.clar'
+clarity_version = 2
+epoch = 2.1
+
+[contracts.ft-test]
+path = 'contracts/helper/ft-test.clar'
+clarity_version = 2
+epoch = 2.1
